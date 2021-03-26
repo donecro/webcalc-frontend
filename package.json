@@ -1,0 +1,16 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "ArcGIS Javascript API 4.x YouTube Series rcGIS Javascript API has been there for a while, allowing people to author rich geo-enabled web applications.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.16.2",
+    "sqlite3": "^5.0.2"
+  }
+}

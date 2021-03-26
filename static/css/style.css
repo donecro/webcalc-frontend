@@ -1,0 +1,93 @@
+body  {
+    font-size: 150%;
+    font-family: monospace;
+}
+
+#logo
+{
+    font-family: Calibri, sans-serif;
+    font-weight: lighter;
+    color: #505050;
+    margin: 0.5em;
+}
+
+#calculator
+{
+    text-align: center;
+    margin-top: 1em;
+    width: 100%;
+    align-items: center;
+}
+
+#display {
+    font-size: 100%;
+    padding: 0.2em;
+    margin: 0.2em;
+    font-family: monospace;
+    letter-spacing: 0.1em;
+    height: 40px;
+    width: 320px;
+}
+
+.main {
+    padding: 0.2em;
+    margin: 10px auto;
+    /*margin-left: 300px;*/
+    align-items: center;
+    border: 1px #eeeeee solid;
+    width: 800px;
+}
+
+.calc1 {
+    border: solid #d0d0d0 1px;
+    background-color: #f0f0f0;
+    padding: 1.5em;
+    margin: 1em;
+    width: 70px;
+}
+
+.record {
+    margin-top: 10px;
+    height: auto;
+    justify-content: start;
+    vertical-align: top;
+}
+
+.record_table {
+
+    vertical-align: top;
+    border: 1px #999999 solid;
+    width: 300px;
+}
+
+.record_table th {
+    width: 70px;
+    background-color: #dddddd;
+}
+
+.record_table td {
+    width: 50px;
+}
+
+
+.del{
+    position:relative;
+    width: 30px;
+    height: 30px;
+}
+.del::before, .del::after{
+    content:'';
+    position:absolute;
+    background-color:red;
+    /*left:16px;*/
+    width:1px;
+    height:18px;
+    top: -9px;
+}
+.del::before{
+    transform:rotate(45deg);
+}
+.del::after{
+    transform:rotate(-45deg);
+}
+
